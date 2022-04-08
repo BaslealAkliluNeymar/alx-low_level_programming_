@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main -Entry point
+* main - Entry point
 *
 * Return: Always 0 (Success/correct)
 */
@@ -14,10 +14,10 @@ char alpha;
 for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 if (alpha == 'q')
-continue:
+continue;
 
 else if (alpha == 'e')
-continue:
+continue;
 
 putchar(alpha);
 
