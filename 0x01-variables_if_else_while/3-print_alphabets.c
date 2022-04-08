@@ -9,17 +9,17 @@
 int main(void)
 {
 
-char upper;
 char lower;
+char upper;
 
-for (upper =  'A'; upper <= 'Z'; upper++)
-{
-putchar(upper);
-}
-
-for (lower = 'a'; lower <= 'z'; lower++)
+for (lower = Ã'a'; lower <= 'z'; lower++)
 {
 putchar(lower);
+}
+
+for (upper =  'A'; upper <= 'A'; upper++)
+{
+putchar(upper);
 }
 
 putchar('\n');
