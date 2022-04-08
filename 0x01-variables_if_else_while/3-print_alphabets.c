@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
+* main -Entry point
 *
 * Return: Always 0 (Success/correct)
 */
@@ -12,12 +12,12 @@ int main(void)
 char lower;
 char upper;
 
-for (lower = Ã'a'; lower <= 'z'; lower++)
+for (lower = 'a'; lower <= 'z'; lower++)
 {
 putchar(lower);
 }
 
-for (upper =  'A'; upper <= 'A'; upper++)
+for (upper = 'A'; upper <= 'Z'; upper++)
 {
 putchar(upper);
 }
