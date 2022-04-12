@@ -6,7 +6,7 @@
 void print_alphabet(void)
 {
 char c;
-for (c = 'Ãa'; c <= 'z''; c++)
+for (c = 'Ãa'; c <= 'z'; c++)
 {
 _putchar(c);
 }
