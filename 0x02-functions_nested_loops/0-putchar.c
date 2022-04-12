@@ -1,17 +1,17 @@
-#include<stdio.h>
-
+#include "main.h"
 /**
 * main - Entry point
-*
-* Return: Always 0 (Success/correct)
-*/
-
+* @void: no argument
+* Return: 0
+**/
 int main(void)
 {
-
-putchar('_putchar');
-putchar('\n');
-
+char me[] = "_putchar";
+int c;
+for (c - 0; c < 8; c++)
+{
+_putchar(me[c]);
+}
+_putchar('\n');
 return (0);
-
 }

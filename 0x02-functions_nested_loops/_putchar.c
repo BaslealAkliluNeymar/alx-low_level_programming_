@@ -1,17 +1,13 @@
-#include "main.h"
-/**
-* main - Entry point
-* @void: no argument
-* Return: 0
-**/
+#include <unistd.h>
 
-int main(void)
+/**
+* _putchar - writes the character c to stdout
+* @c: The character to print
+*
+* Return: On success 1.
+* On error, -1 is returned, and error is set approprialtely.
+*/
+int _putchar(char c)
 {
-char ermias[] = "_putchar";
-int c;
-for (c = 0; c < 8; c++)
-{
-_putchar(ermias[c]);
+return (write(1, &c, 1));
 }
-_putchar('\n');
-return (0);
