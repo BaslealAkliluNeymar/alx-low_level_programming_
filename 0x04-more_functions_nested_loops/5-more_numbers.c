@@ -2,7 +2,7 @@
 
 /**
 * more_number - prints 10 thimes the nubers
-* followed by a ew line
+* followed by a ew lie
 */
 
 void more_numbers(void)
