@@ -5,7 +5,7 @@
 * @n: number of lines on the console 
 */
 
-voud print_line(int n)
+void print_line(int n)
 {
 if (n <= 0)
 {
